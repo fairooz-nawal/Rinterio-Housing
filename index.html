@@ -20,6 +20,12 @@
         .lime {
             background-color: #ABEF5F;
         }
+        .back{
+            background-image: url("assets/bg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
     </style>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
@@ -249,8 +255,36 @@
         </section>
         <!-- latest portfolio end -->
 
+        <!-- form section start  -->
+        <section class="w-full back">
+            <div class="lg:max-w-5xl mx-auto my-20 p-10">
+                <div class="text-center w-11/12 lg:w-4/5 mx-auto">
+                    <button class="btn lime rounded-full text-black">Let's Connect <i
+                            class="fa-solid fa-circle-arrow-up-right text-2xl"></i></button>
+                    <h1 class="text-3xl lg:text-5xl font-bold mt-4">Let’s Discuss Next Project</h1>
+                    <br>
+                    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents.</p><br>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <div class=""><input type="text" placeholder="First name" class="input input-bordered w-full" /></div>
+                    <div class=""><input type="text" placeholder="Last Name" class="input input-bordered w-full" />
+                    </div>
+                    <div class=""><input type="text" placeholder="Phone Number" class="input input-bordered w-full" /></div>
+                    <div class=""><input type="text" placeholder="Email" class="input input-bordered w-full" />
+                    </div>
+                    <div class="lg:col-span-2"><textarea class="textarea textarea-bordered h-44 w-full text-lg"
+                            placeholder="Write your message here"></textarea></div><br>
+                </div>
+                <div class=""><button
+                    class="btn lime p-2 rounded-full text-black text-xl w-full font-bold">Send Mail <i class="fa-solid fa-circle-arrow-up-right text-2xl"></i></button></div>
+            </div>     
+        </section>
+        <!-- form section end -->
     </main>
-    <footer></footer>
+    <footer class="bg-base-200">
+
+    </footer>
 </body>
 
 </html>
